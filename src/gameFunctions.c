@@ -48,7 +48,35 @@ strng++;
 printf("%s",nstring);
  }
 
-revealGuessedLetter() {}
+revealGuessedLetter(const char* string1,char* string2,char c)
+ {
+  int gueslatter=0;
+
+  while(*string1 != '\0'){
+
+if(*string1==c){
+
+*string2=c;
+gueslatter++;
+
+}
+
+string1++;
+string2++;
+
+}
+
+if(gueslatter==0){
+
+return 0;
+
+}
+
+return 1;
+ 
+
+
+ }
 
 checkGuess() {}
 

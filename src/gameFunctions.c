@@ -4,7 +4,20 @@
 
 #include "gameFunctions.h"
 
-initializeBlankString() {}
+initializeBlankString() 
+{
+     {
+   
+    for(int i=0;i<length;i++)
+   	{
+   		string[i]='_';
+   		printf("%c",string[i]);
+	   }
+
+
+   }
+
+}
 
 printWithSpaces() {}
 

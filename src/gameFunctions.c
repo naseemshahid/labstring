@@ -4,14 +4,14 @@
 
 #include "gameFunctions.h"
 
-initializeBlankString() 
+initializeBlankString(int length,char *st) 
 {
      {
    
     for(int i=0;i<length;i++)
    	{
-   		string[i]='_';
-   		printf("%c",string[i]);
+   		st[i]='_';
+   		printf("%c",st[i]);
 	   }
 
 
